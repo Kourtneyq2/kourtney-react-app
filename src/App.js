@@ -1,9 +1,11 @@
-import { banner } from "./components/banner";
+import { Banner } from ".components/Banner";
+import { Movies } from ".components/Movies";
 
 export const App = () => {
-  return {
-    <div>
-      <banner />
-    </div>
-  };
+  return (
+  <div>
+    <Banner />
+    <Movies />
+  </div>
+  );
 };
